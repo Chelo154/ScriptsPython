@@ -8,6 +8,11 @@ print("**************************************")
 print("by @chelo154")
 print("--------------------------------------")
 print("\n")
+if(maximo <= 1):
+    print("ERROR -Debes Ingresar expresiones para poder convertirlas a Ascii")
+    print('\nEjemplo de Uso: python ConversorAscii.py "Hola" "Mundo"')
+    print("\nSaliendo.... ")
+    exit()
 while(i < maximo):
     if(i != 0):
         print("Expresion "+str(i)+": ")      
